@@ -12,6 +12,7 @@
 		7A46E6A31DEE788600E90529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A46E6A21DEE788600E90529 /* Assets.xcassets */; };
 		7A46E6A61DEE788600E90529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A46E6A41DEE788600E90529 /* Main.storyboard */; };
 		7A46E6B11DEE788600E90529 /* MaJiangCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A46E6B01DEE788600E90529 /* MaJiangCalcTests.swift */; };
+		7A46E6BC1DEE789B00E90529 /* MaJiangLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A46E6BB1DEE789B00E90529 /* MaJiangLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		7A46E6AC1DEE788600E90529 /* MaJiangCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaJiangCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A46E6B01DEE788600E90529 /* MaJiangCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaJiangCalcTests.swift; sourceTree = "<group>"; };
 		7A46E6B21DEE788600E90529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A46E6BB1DEE789B00E90529 /* MaJiangLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaJiangLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				7A46E6A21DEE788600E90529 /* Assets.xcassets */,
 				7A46E6A41DEE788600E90529 /* Main.storyboard */,
 				7A46E6A71DEE788600E90529 /* Info.plist */,
+				7A46E6BB1DEE789B00E90529 /* MaJiangLib.swift */,
 			);
 			path = MaJiangCalc;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A46E6BC1DEE789B00E90529 /* MaJiangLib.swift in Sources */,
 				7A46E6A11DEE788600E90529 /* ViewController.swift in Sources */,
 				7A46E69F1DEE788600E90529 /* AppDelegate.swift in Sources */,
 			);
